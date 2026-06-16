@@ -1,0 +1,2 @@
+## Embedded Dev
+A high-throughput, low-latency sensor perception pipeline designed for resource-constrained autonomous systems. This repository integrates a RealSense 3D Depth Camera and a 3D LiDAR, focusing on optimized data transport mechanisms to minimize CPU and memory overhead on the NVIDIA Jetson AGX Orin platform.
