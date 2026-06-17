@@ -20,7 +20,7 @@ echo 1 > enable
 Once PWM is enabled and the camera is running, confirm it's locked to the sync signal:
 
 ```bash
-v4l2-ctl --device=/dev/rs0-rgb --stream-mmap
+v4l2-ctl --device=</path/to/camera/> --stream-mmap
 ```
 
 Expected output — steady ~30 fps means the camera is locked to the external sync:\
