@@ -23,7 +23,7 @@ Once PWM is enabled and the camera is running, confirm it's locked to the sync s
 v4l2-ctl --device=</path/to/camera/> --stream-mmap
 ```
 
-Expected output — steady ~30 fps means the camera is locked to the external sync:\
+Expected output is a steady ~30 fps means the camera is locked to the external sync:
 
 If fps is erratic or significantly different from 30, check:
 - PWM is enabled (`cat /sys/class/pwm/pwmchip3/pwm0/enable` should return `1`)
