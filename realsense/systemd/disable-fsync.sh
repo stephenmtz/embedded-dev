@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eu
 
 PWMCHIP=/sys/class/pwm/pwmchip3
 

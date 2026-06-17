@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -eu
 
 PWMCHIP=/sys/class/pwm/pwmchip3
 PERIOD=33333333
